@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="cat.jpg" />
+    <title>game login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="code.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>🎮 GAME LOGIN</h1>
+      <p>Welcome back, player</p>
+    </header>
+    <main>
+      <form id="loginForm" novalidate action="#" method="post">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter username"
+          required
+          autocomplete="username"
+        />
+
+        <br /><br />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter password"
+          required
+          autocomplete="current-password"
+        />
+
+        <br /><br />
+        <p id="errorMessage"></p>
+        <p id="successMessage"></p>
+        <a href="home.html" id="loginButton" type="submit" value="LOGIN">
+          <button id="loginButton" type="submit" value="LOGIN">LOGIN</button>
+        </a>
+      </form>
+      <aside class="news-panel">
+        <h2>📰 News</h2>
+        <ul>
+          <li>New Pac-Man update</li>
+          <li>Event this week</li>
+          <li>Server maintenance</li>
+        </ul>
+      </aside>
+    </main>
+  </body>
+</html>
