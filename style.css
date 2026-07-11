@@ -145,7 +145,7 @@ button:hover {
     left: 100%;
   }
   input {
-    width: 100%;
+    width: calc(100% - 24px);
     padding: 12px;
     margin-top: 5px;
     margin-bottom: 15px;
