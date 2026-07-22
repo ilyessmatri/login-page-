@@ -1,9 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Home</title>
-</head>
-<body>
-    <h1>Welcome! You logged in successfully.</h1>
-</body>
+  <head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hub</title>
+
+    <link rel="icon" href="cat.jpg">
+
+    <link rel="stylesheet" href="home.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+  </head>
+
+  <body>
+    <header>
+      <a href="home.html" class="logo">🎮 GameHub</a>
+
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="#">Library</a>
+        <a href="news.html">News</a>
+        <a href="#">About</a>
+    </nav>
+      <div class="search-container">
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search games...">
+        </div>
+    
+        <div class="search-menu">
+
+          <a href="#">
+              <img src="icons/action.png" alt="Action" class="menu-icon">
+              Action
+          </a>
+      
+          <a href="#">
+              <img src="icons/puzzle.png" alt="Puzzle" class="menu-icon">
+              Puzzle
+          </a>
+      
+          <a href="#">
+              <img src="icons/racing.png" alt="Racing" class="menu-icon">
+              Racing
+          </a>
+      
+          <a href="#">
+              <img src="icons/strategy.png" alt="Strategy" class="menu-icon">
+              Strategy
+          </a>
+      
+          <a href="#">
+              <img src="icons/popular.png" alt="Popular" class="menu-icon">
+              Popular
+          </a>
+      
+          <a href="#">
+              <img src="icons/fire.png" alt="New Releases" class="menu-icon">
+              New Releases
+          </a>
+      
+      </div>
+    
+    </div>
+      <div class="profile">👤 Guest</div>
+    </header>
+    <main>
+      <div class="content">
+        <section class="hero">
+
+          <img src="pacman.jpg" alt="Pac-Man">
+      
+          <div class="hero-content">
+      
+              <h2>Featured Game</h2>
+      
+              <h1>Pac-Man Deluxe</h1>
+      
+              <p>
+                  Enter the maze, escape the ghosts, and chase the highest score.
+              </p>
+      
+              <a href="#">Play Now</a>
+      
+          </div>
+      
+      </section>
+        <section class="categories">
+          <h2>Browse by Category</h2>
+          <div class="category-list"></div>
+        </section>
+
+        <!-- GAMES -->
+        <section class="games">
+          <h2>Popular Games</h2>
+
+          <div class="game-list">
+            <div class="game-card">
+              <img src="pacman.jpg" alt="Pac-Man">
+              <h3>Pac-Man</h3>
+              <p>Classic arcade adventure.</p>
+              <a href="#">Play Now</a>
+            </div>
+
+            <div class="game-card">
+                <img src="chess.jpg" alt="Chess">
+              <h3>Chess</h3>
+              <p>Strategic mind battle.</p>
+              <a href="#">Play Now</a>
+            </div>
+
+            <div class="game-card">
+                <img src="arenabreakout.jpg" alt="Arena Breakout">
+              <h3>Arena Breakout</h3>
+              <p>Tactical shooting game.</p>
+              <a href="#">Play Now</a>
+            </div>
+            <div class="game-card">
+                <img src="minecraft.jpg" alt="Minecraft">
+              <h3>Minecraft</h3>
+              <p>Build, explore, and survive.</p>
+              <a href="#">Play Now</a>
+            </div>
+
+            <div class="game-card">
+                <img src="valorant.jpg" alt="valorant">
+              <h3>valorant</h3>
+              <p>5v5 tactical FPS action.</p>
+              <a href="#">Play Now</a>
+            </div>
+
+            <div class="game-card">
+                <img src="fortnite.jpg" alt="fortnite">
+              <h3>fortnite</h3>
+              <p>Battle royale with creative building.</p>
+              <a href="#">Play Now</a>
+            </div>
+            <div class="game-card">
+                <img src="rocketleague.jpg" alt="rocketleague">
+              <h3>rocketleague</h3>
+              <p>Soccer with rocket-powered cars.</p>
+              <a href="#">Play Now</a>
+            </div>
+
+            <div class="game-card">
+                <img src="OIPeldenring.jpg" alt="eldenring">
+              <h3>eldenring</h3>
+              <p>Open-world fantasy RPG adventure.</p>
+              <a href="#">Play Now</a>
+            </div>
+
+            <div class="game-card">
+                <img src="gta5.jpg" alt="gta5">
+              <h3>gta5.</h3>
+              <p>Open-world action and missions.</p>
+              <a href="#">Play Now</a>
+            </div>
+            <div class="game-card">
+              <img src="OIPcyberpunk.jpg" alt="cyberpunk">
+              <h3>cyberpunk</h3>
+              <p>Futuristic RPG in Night City.</p>
+              <a href="#">Play Now</a>
+            </div>
+
+            <div class="game-card">
+                <img src="callofduty.jpg" alt="callofduty">
+              <h3>callofduty</h3>
+              <p>Fast-paced military shooter.</p>
+              <a href="#">Play Now</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-left">🎮 GameHub © 2026</div>
+
+        <div class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Support</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      lucide.createIcons();
+  </script>
+  
+  </body>
 </html>

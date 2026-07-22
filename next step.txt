@@ -1,0 +1,10 @@
+next step :
+-- the items need to be centre and make 4 cards every line when it the page big and when the page or half need to be 2 cards .
+-- the  <!-- HERO --> part put atleast one image that very big and good looking .
+-- the news need to take away from login and home page and made spaciel place in nav ( header) in simple answer: a spaciel place for it .
+-- type your email or username .
+-- the image and the info of every card is different for each card .
+-- change background color to #2d213e
+-- header not well aligned .
+-- icones must be vector   .
+-- 
